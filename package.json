@@ -1,0 +1,25 @@
+{
+  "name": "genre-cli",
+  "version": "0.0.1",
+  "description": "Generate react resource liek a true lazy developer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "react",
+    "resource",
+    "generate",
+    "generator"
+  ],
+  "author": "https://github.com/typeWolffo",
+  "license": "MIT",
+  "bin": {
+    "genre": "index.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "9.4.1",
+    "conf": "10.2.0"
+  }
+}
