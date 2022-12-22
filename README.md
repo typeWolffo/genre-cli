@@ -1,6 +1,11 @@
-## Genre-cli 
+<div align="center">
+
+![genreLogo](https://user-images.githubusercontent.com/30735738/209177310-e5e7984f-d10b-4177-85f2-f2649f88467e.png)
+
+# Genre-cli 
 
 Genre-cli is a tool for lazy developers to create resources for React components.
+</div>
 
 --- 
 
