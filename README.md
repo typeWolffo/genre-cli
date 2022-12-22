@@ -4,7 +4,7 @@
 
 # Genre-cli 
 
-Genre-cli is a tool for lazy developers to create resources for React components.
+Genre-cli (GENerate REsource) is a tool for lazy developers to create resources for React components.
 </div>
 
 --- 
