@@ -7,6 +7,11 @@ program
   .requiredOption("-n, --name <name>", "Name of resource")
   .requiredOption("-s, --style <style>", "Extension for stylesheet file", "css")
   .option("-js, --javascript", "Generate js files instead of ts", false)
+  .option(
+    "-src, --src",
+    "Generate components directory inside src folder",
+    false
+  )
   .action(generate);
 
 program.parse(process.argv);
