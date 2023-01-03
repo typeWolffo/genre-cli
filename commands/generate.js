@@ -4,8 +4,8 @@ const path = require("path");
 const chalk = require("chalk");
 
 function generate(resource) {
-  const { name, style, javascript } = resource;
-  const dir = "./components";
+  const { name, style, javascript, src } = resource;
+  const dir = src ? "./src/components" : "./components";
   const extension = javascript ? ".js" : ".ts";
   const resourcePath = path.join(dir, name);
 
